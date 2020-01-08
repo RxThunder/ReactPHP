@@ -1,0 +1,25 @@
+{
+  "name": "rxthunder/react-php",
+  "description": "Provide helpers for evented I/O",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jérémy Marodon",
+      "email": "marodon.jeremy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "react/event-loop": "^1.1.1"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16",
+    "phpstan/phpstan": "^0.12.0",
+    "youdot/coding-standard": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RxThunder\\ReactPHP\\": "src/"
+    }
+  }
+}
